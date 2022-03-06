@@ -1,0 +1,47 @@
+body{
+    background-image: url(kepek/background.jpg);
+    background-size: cover;
+}
+
+header{
+    color: rgb(242, 211, 73);
+    font-size: 500%;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    padding-top: 20px;
+    border: 2px solid black
+}
+
+nav{
+    background-color: rgba(138, 168, 153, 0.8);
+    border: 5px solid black;
+}
+
+nav ul li a{
+    color: brown !important; 
+    border: 2px solid black;
+}
+
+.kepek{
+    height: auto;
+}
+
+.row{
+    padding: 40px;
+}
+
+.card{
+    background-color: rgb(138, 168, 153);
+    width: 20em;
+    height: 20em;
+}
+
+.card-title{
+    color: rgb(92, 110, 88);
+    text-align: center;
+}
