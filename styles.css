@@ -22,9 +22,20 @@ nav{
     border: 5px solid black;
 }
 
+nav ul li{
+    text-align: center;
+    width: 15em;
+}
+
 nav ul li a{
     color: brown !important; 
     border: 2px solid black;
+    transition: 1s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(242, 211, 73);
+    font-weight: bold;
 }
 
 .kepek{
@@ -39,6 +50,7 @@ nav ul li a{
     background-color: rgb(138, 168, 153);
     width: 20em;
     height: 20em;
+    margin-bottom: 3em;
 }
 
 .card-title{
